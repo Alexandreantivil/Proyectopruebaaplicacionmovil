@@ -1,19 +1,19 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Login y registro
-    </ion-title>
+    <ion-title> Acceso</ion-title>
   </ion-toolbar>
+
 </ion-header>
 <ion-content class="auth-form">
-  <ion-grid>
-    <ion-row>
-      <ion-col align-self-center>
-        <ion-button [routerLink]="['/registration']" expand="block" color="primary">Registrarse</ion-button>
-        <span class="divider line one-line">o</span>
-        <span class="already">Already a user?</span>
-        <ion-button [routerLink]="['/login']" expand="block" color="danger">Iniciar sesion</ion-button>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+  <ion-card id="home">
+    <ion-grid>
+      <ion-row>
+        <ion-col align-self-center>
+          <ion-button [routerLink]="['/registration']" expand="block" color="dark">Registrarse</ion-button>          
+          <span class="already">Tienes Cuenta?</span>
+          <ion-button [routerLink]="['/login']" expand="block" color="light">Iniciar sesion</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
 </ion-content>
