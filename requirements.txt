@@ -1,3 +1,5 @@
-npm install -g @ionic/cli
 npm install
+npm install -g @ionic/cli
 npm install -g @angular/cli
+ionic 7.1.1
+npm 9.8.0
