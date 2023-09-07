@@ -1,8 +1,9 @@
 <ion-header>
   <ion-toolbar color="secondary">
     <ion-title>Acceso</ion-title>
+    <ion-progress-bar type="indeterminate"></ion-progress-bar>
   </ion-toolbar>
-  <ion-img src="assets/img/pasteleria.jpg" alt="pasteleria" ></ion-img>
+
 </ion-header>
 <ion-content class="auth-form">
   <ion-card id="home">    
@@ -10,7 +11,8 @@
       <ion-grid>
         <ion-row>
           <ion-col align-self-center>
-            <ion-button [routerLink]="['/registration']" expand="block" color="dark">Registrarse</ion-button>          
+            <ion-button [routerLink]="['/registration']" expand="block"color="dark">Registrarse</ion-button> 
+             
             <span class="already">Tienes Cuenta?</span>
             <ion-button [routerLink]="['/login']" expand="block" color="light">Iniciar sesion</ion-button>
           </ion-col>
@@ -19,3 +21,9 @@
     </ion-card-content>
   </ion-card>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar color ="secondary">
+    <ion-title>PideQr</ion-title>
+  </ion-toolbar>
+</ion-footer>
